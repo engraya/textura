@@ -1,8 +1,6 @@
 import Image from "next/image";
-import { currentUser } from "@clerk/nextjs";
-
+import { currentUser } from "@clerk/nextjs/server";
 import { communityTabs } from "@/constants";
-
 import UserCard from "@/components/cards/UserCard";
 import ThreadsTab from "@/components/shared/ThreadsTab";
 import ProfileHeader from "@/components/shared/ProfileHeader";
